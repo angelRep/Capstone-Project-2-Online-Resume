@@ -19,3 +19,9 @@ section {
 p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+@media (max-width:1000px) {
+    nav.navbar.navbar-expand-sm.bg-dark.navbar-dark {
+        display: none;
+    }
+}
